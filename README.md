@@ -1,5 +1,5 @@
-# HEAVY-OOP
-huiswerk voor lessen OOP
+# les01
+huiswerk voor les OOP
 
 https://github ......
 

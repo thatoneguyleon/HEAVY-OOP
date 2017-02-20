@@ -1,8 +1,6 @@
 # les01
 huiswerk voor les OOP
 
-https://github ......
-
 huiswerk les 01:
 bekijk het filmpje van het eindproduct en doe voor jezelf de OO analyse nog eens:
 -welke objecten spelen volgens jouw een rol?
@@ -15,3 +13,45 @@ Je hoeft de methodes nier hte implementeren - geef ze alleen een naam, en commen
 
 declareer wel de attributem(variabelen) die je nodig denkt te hebben.
 
+
+
+Antwoord:
+
+opdracht 1:
+OO analyse: 
+Objecten: Cirkels
+Atributen: beginlocatie, kleur                                                                           (klopt dit?)
+Methodes(gedrag): richting, bewegingssnelheid, grootte veranderingssnelheid, object vernietiging        (klopt dit? vooral grootte weet                                                                                                         ik niet)
+relaties: hoe sneller een object object beweegd, hoe sneller deze ook groeit en krimpt.
+
+opdracht 2:
+Class: 
+  orb
+attributes:
+  color, location
+methodes(gedrag):
+  size, movementspeed, direction
+
+opdracht 3:
+C++ classes
+class Circle {
+  private:
+    int radius;
+    float transparency;
+ 
+  public:
+    Circle(int w,int h);
+    void setTransparency(float a);
+    int area();
+    void draw();
+}
+
+Circle::Circle(int r) {
+ radius = r;
+}
+int Circle::area() {
+ return 2*PI*radius;
+}
+void Circle::draw() {
+ ofDrawCircle(...);
+}

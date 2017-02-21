@@ -12,11 +12,14 @@ maak C++ classes voor de objecten die je bedacht hebt.
 Je hoeft de methodes nier hte implementeren - geef ze alleen een naam, en commentaar wat ze zouden moeten doen.
 
 declareer wel de attributem(variabelen) die je nodig denkt te hebben.
+//
 
 //
-//
+
 Antwoord:
+
 //
+
 opdracht 1:
 
 OO analyse: 
@@ -31,6 +34,7 @@ Methodes(gedrag): richting, bewegingssnelheid, grootte veranderingssnelheid, obj
 relaties: hoe sneller een object object beweegd, hoe sneller deze ook groeit en krimpt.
 
 //
+
 opdracht 2:
 
 Class: 
@@ -46,6 +50,7 @@ methodes(gedrag):
 	size, movementspeed, direction
 
 //
+
 opdracht 3:
 
 C++ classes

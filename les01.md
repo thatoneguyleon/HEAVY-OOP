@@ -47,15 +47,17 @@ class Circle {
     int area();                               (omgeving)
     col( c, d, e);                            (kleur)
     
-    void draw();
+  void draw();
 }
 
 Circle::Circle(int r) {
- radius = r;
+  radius = r;
 }
+
 int Circle::area() {
- return 2*PI*radius;
+  return 2*PI*radius;
 }
+
 void Circle::draw() {
- ofDrawCircle(...);
+  ofDrawCircle(...);
 }

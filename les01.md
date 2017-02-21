@@ -37,12 +37,16 @@ C++ classes
 class Circle {
   private:
     int radius;
-    float transparency;
+    float MovementSpeed;
+    float SizeSpeed
  
   public:
-    Circle(int w,int h);
-    void setTransparency(float a);
-    int area();
+    Circle(int w,int h);                      (grootte)
+    void setMovementSpeed(float a);
+    void setSizeSpeed(float a);
+    int area();                               (omgeving)
+    col( c, d, e);                            (kleur)
+    
     void draw();
 }
 

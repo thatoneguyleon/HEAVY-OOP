@@ -19,6 +19,7 @@ Antwoord:
 
 opdracht 1:
 OO analyse: 
+
 Objecten: Cirkels
 Atributen: beginlocatie, kleur                                                                           (klopt dit?)
 Methodes(gedrag): richting, bewegingssnelheid, grootte veranderingssnelheid, object vernietiging        (klopt dit? vooral grootte weet                                                                                                         ik niet)

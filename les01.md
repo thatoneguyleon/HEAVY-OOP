@@ -13,10 +13,10 @@ Je hoeft de methodes nier hte implementeren - geef ze alleen een naam, en commen
 
 declareer wel de attributem(variabelen) die je nodig denkt te hebben.
 
-
-
+//
+//
 Antwoord:
-
+//
 opdracht 1:
 
 OO analyse: 
@@ -30,40 +30,40 @@ Methodes(gedrag): richting, bewegingssnelheid, grootte veranderingssnelheid, obj
 
 relaties: hoe sneller een object object beweegd, hoe sneller deze ook groeit en krimpt.
 
-
+//
 opdracht 2:
 
 Class: 
 
-  orb
+	orb
 
 attributes:
 
-  color, location
+	color, location
 
 methodes(gedrag):
 
-  size, movementspeed, direction
+	size, movementspeed, direction
 
-
+//
 opdracht 3:
 
 C++ classes
 
 class Circle {
 
-  private:
+	private:
   
-    int radius;
+		int radius;
     
-    float MovementSpeed;
+		float MovementSpeed;
     
-    float SizeSpeed
+		float SizeSpeed
  
  
-  public:
+	public:
   
-    Circle(int w,int h);                      (grootte)
+		Circle(int w,int h);                      (grootte)
     
     void setMovementSpeed(float a);
     
@@ -74,27 +74,27 @@ class Circle {
     col( c, d, e);                            (kleur)
     
     
-  void draw();
+	void draw();
   
 }
 
 
 Circle::Circle(int r) {
 
-  radius = r;
+	radius = r;
   
 }
 
 
 int Circle::area() {
 
-  return 2*PI*radius;
+	return 2*PI*radius;
   
 }
 
 
 void Circle::draw() {
 
-  ofDrawCircle(...);
+	ofDrawCircle(...);
   
 }
